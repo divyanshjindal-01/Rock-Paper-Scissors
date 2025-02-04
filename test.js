@@ -11,7 +11,7 @@ checkpoint=(userchoice,compchoice)=>{
     let options =["rock","paper","scissors"];
    if (userchoice===compchoice){
     console.log("its a tie!!");
-    messege.innerText="its a tie!!";
+    messege.innerText="Its a tie!🙄🙄";
 
    }
    else if (
@@ -20,7 +20,7 @@ checkpoint=(userchoice,compchoice)=>{
     (userchoice ==="scissors" && compchoice ==="paper")
    ){
     console.log("you winn!!");
-    messege.innerText="you winn!!";
+    messege.innerText="You winn!🥳🥳";
     const userwin = document.querySelector("#user");
     let ucurrentvalue =userwin.innerText;
     ucurrentvalue++;
@@ -29,7 +29,7 @@ checkpoint=(userchoice,compchoice)=>{
    }
    else{
     console.log("you loss!!");
-    messege.innerText="you loss";
+    messege.innerText="You loss😫😫";
     const compwin = document.querySelector("#comp");
     let ccurrentvalue =compwin.innerText;
     ccurrentvalue++;

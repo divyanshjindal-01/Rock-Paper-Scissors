@@ -8,7 +8,7 @@
   padding: 0;
 }
 html,body{
-  background-image: url('../images/Game\ Background.jpg');
+  background-image: url('/Rock-Paper-Scissors/images/Game\ Background.jpg');
   object-fit: cover;
   object-position: center;
   background-repeat: no-repeat;
